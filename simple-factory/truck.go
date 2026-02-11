@@ -4,11 +4,11 @@ type Truck struct {
 	Vehicle
 }
 
-func newTruck () IVehicle {
-	return &truck {
+func newTruck() IVehicle {
+	return &Truck{
 		Vehicle: Vehicle{
-			name: "truck",
-			horsePower: 5000
-		}
+			name:       "truck",
+			horsePower: 5000,
+		},
 	}
 }

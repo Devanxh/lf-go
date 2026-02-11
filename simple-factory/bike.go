@@ -4,11 +4,11 @@ type Bike struct {
 	Vehicle
 }
 
-func newBike () IVehicle {
-	return &bike {
+func newBike() IVehicle {
+	return &Bike{
 		Vehicle: Vehicle{
-			name: "bike",
-			horsePower: 300
-		}
+			name:       "bike",
+			horsePower: 300,
+		},
 	}
 }
