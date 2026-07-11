@@ -13,6 +13,6 @@ func main() {
 func printDetails(v IVehicle) {
 	fmt.Printf("Name: %s", v.getName())
 	fmt.Println()
-	fmt.Printf("Horse Power: %d", v.geHorsePower())
+	fmt.Printf("Horse Power: %d", v.getHorsePower())
 	fmt.Println()
 }
